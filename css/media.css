@@ -1,0 +1,95 @@
+@media(max-width:1210px){
+    .services-items{
+        justify-content: center;
+    }
+}
+
+@media(max-width:1120px){
+    .projects-img{
+        flex-wrap: wrap;
+    }
+    .projects-img img{
+        padding: 20px 10px;
+    }
+}
+
+@media(max-width:768px){
+    .standarts{
+        margin: 20px 0px;
+    }
+    .standarts-direction{
+        display: block;
+    }
+    .standarts-right{
+        display: none;
+    }
+    .standarts-left{
+        text-align: center;
+    }
+    .standarts-left-title h1{
+        padding: 20px 0px;
+    }
+    .standarts-left-subtitle{
+        padding: 10px 0px;
+    }
+    .standarts-bottom{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:590px){
+    .header-nav ul li a{
+        font-size: 12px;
+    }
+    .header-nav ul{
+        justify-content: center;
+    }
+    .header-title h1{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:470px){
+    .services-title{
+        display: block;
+        text-align: center;
+    }
+    .services-btn{
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width:320px){
+    .subscribe-btn{
+        display: block;
+    }
+    .subscribe-email input[type=email]{
+        width: calc(250px - 10px);
+        border: 2px solid rgba(161, 161, 161, 1);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    .subscribe-email button{
+        width: calc(250px - 10px);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        position: relative;
+        bottom: 2px;
+    }
+    .services-item{
+        margin: 20px 0px;
+    }
+    .services-item-title{
+        padding: 30px 20px;
+    }
+    .services-item-subtitle{
+        padding: 30px 20px;
+    }
+    .services-item-link{
+        padding: 0px 20px;
+    }
+}
